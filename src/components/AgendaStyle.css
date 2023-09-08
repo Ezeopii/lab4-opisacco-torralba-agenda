@@ -1,0 +1,75 @@
+
+.centrado{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+.container-agenda {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 450px; 
+    margin: 0 auto; 
+    text-align: center; 
+    justify-content: center;
+  }
+  
+ 
+  .section-title-agenda {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px; 
+  }
+  
+
+  .section-agenda {
+    margin-bottom: 15px; 
+    justify-content: center;
+    text-align: center;
+  }
+  
+
+  .label-agenda {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 17px;
+    color: #111111;
+    margin-bottom: 5px; 
+  }
+  
+  .input-agenda {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+ 
+  .button-agenda {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+
+  .error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 10px; 
+  }
+  
+
+  .success-message {
+    color: #00cc00;
+    font-size: 18px;
+    margin-top: 10px; 
+  }
+  
